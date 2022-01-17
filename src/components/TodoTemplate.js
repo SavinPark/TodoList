@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from "styled-components";
+import styled from 'styled-components';
 
-const TodoTemplateBlock = styled.div`
+const TodoTemplateBlock = styled.div `
   width: 512px;
   height: 768px;
 
@@ -19,8 +19,10 @@ const TodoTemplateBlock = styled.div`
 `;
 
 function TodoTemplate({children}) {
-  return(
-    <TodoTemplateBlock>{children}</TodoTemplateBlock>
+  return (
+    <TodoTemplateBlock>
+      {children}
+    </TodoTemplateBlock>
   );
 }
 
